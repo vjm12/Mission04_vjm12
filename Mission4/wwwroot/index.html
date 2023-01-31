@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!--Author: Vanessa Machado
+        Add links for icon image, bootstrap styling, and CSS-->
+    <link rel="icon" href="img/foxicon.jpg">
+    <link href="lib/bootsrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/myStyles.css" rel="stylesheet" />
+
+    <title>Mission 4 Obligatory Title</title>
+</head>
+<body>
+    <h1>Vanessa Machado</h1>
+    <!--Image is sourced...something I like to do is be with my family-->
+    <img src="img/Sisters.png" width="300" height="480" />
+    <br />
+    <p>I hope to learn more about ASP.Net and C#.
+    Right now I hardly understand anything about C# because it is a strongly typed language and there are no other resources except the videos, which I do not learn well from
+    I also hope to know what the purpose of ASP.Net is, as opposed to HTML, Javascript, and Python.
+    Also, what is the meaning of "Enterprise Application Development" and how does it relate to the actual industry?
+    I hope to gain more knowledge and confidence in these areas.</p>
+    <br />
+    <ul>
+        <li>Data Analytics</li>
+        <li>Management</li>
+        <li>Development</li>
+    </ul>
+    <h2>Grade Calculator</h2>
+    <!--This is where you input the information for the javascript program-->
+    <p>Please enter your numeric grade (i.e. 92) </p><br />
+    <form>
+
+        <label>Assignments</label>
+        <input id="assignments" /><br />
+        <label>Group Projects</label>
+        <input id="groupprojects" /><br />
+        <label>Quizzes</label>
+        <input id="quizzes" /><br />
+        <label>Midterm Exam</label>
+        <input id="midterm" /><br />
+        <label>Final Exam</label>
+        <input id="final" /><br />
+        <label>INTEX</label>
+        <input id="intex" /><br /><br />
+        <input id="btnsubmit" type="button" value="Calculate" /><br /><br />
+
+        <label id="lettergrade"></label>
+    </form>
+    <!--Source the bootstrap, jquery, and javascript program-->
+    <script src="lib/bootsrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/GradeCalculator.js"></script>
+</body>
+</html>
