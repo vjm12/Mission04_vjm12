@@ -1,4 +1,7 @@
 ﻿/*CSS adjustments to the bootstrap*/
+body{
+    margin-left:50px;
+}
 label {
     font-size:20px;
     color:darkturquoise;
