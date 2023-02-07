@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<!--This is the shared layout that will be used in every page-->
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <!--Author: Vanessa Machado
+        Add links for icon image, bootstrap styling, and CSS-->
+    <link rel="icon" href="~/img/foxicon.jpg">
+    <link href="~/lib/bootsrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/myStyles.css" rel="stylesheet" />
+
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <nav>
+        <a asp-controller="View1" asp-action="Index">Home</a>
+        <a asp-controller="View1" asp-action="GradeCalc">Grade Calculator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <script src="~/lib/bootsrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+</body>
+</html>

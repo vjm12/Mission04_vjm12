@@ -59,6 +59,6 @@ else if (total_grade >= 60) {
 else {
     lettergrade = 'F'
 }
-    //Print results to html form
-    $('#lettergrade').text('Your grade is ' + total_grade + '% or a(n) ' + lettergrade);
+    //Print in alert
+    alert('Your grade is ' + total_grade + '% or a(n) ' + lettergrade);
 })
